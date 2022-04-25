@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoCard should take a snapshot for UserCard 1`] = `
+<DocumentFragment>
+  <div
+    class="todo-card"
+    data-testid="todoCard"
+  >
+    <p
+      id="todo-title"
+    >
+      Todo
+    </p>
+  </div>
+</DocumentFragment>
+`;
