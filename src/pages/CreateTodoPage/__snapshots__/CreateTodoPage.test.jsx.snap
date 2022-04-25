@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateTodoPage should take a snapshot for CreateTodoPage 1`] = `
+<DocumentFragment>
+  <div
+    class="create-todo-page-container"
+  >
+    <div
+      class="details-container"
+    >
+      <div
+        class="details-inner-container"
+      >
+        <img
+          alt="user"
+          data-testid="userImg"
+          id="user-img"
+          src="userImage.jpeg"
+        />
+        <h2
+          data-testid="greeting"
+          id="greeting"
+        >
+          HI, USER
+        </h2>
+        <br />
+        <h1
+          data-testid="time"
+          id="date-time"
+        >
+          <time
+            datetime="1650831384901"
+          >
+            1:46 am
+          </time>
+        </h1>
+        <h1
+          data-testid="date"
+          id="date-time"
+        >
+          <time
+            datetime="1650831384901"
+          >
+            25 April, 2022
+          </time>
+        </h1>
+      </div>
+    </div>
+    <div
+      class="create-todo-container"
+    >
+      <form
+        class="new-todo-form"
+        data-testid="newTodoForm"
+      >
+        <textarea
+          cols="5"
+          data-testid="newTodoInput"
+          id="new-todo-input"
+          maxlength="100"
+          rows="5"
+        />
+        <div
+          class="count-char-container"
+        >
+          <p
+            data-testid="charCount"
+            id="character-count"
+          >
+            100 characters left
+          </p>
+        </div>
+        <button
+          data-testid="submitButton"
+          id="submit-button"
+          type="submit"
+        >
+          SUBMIT
+        </button>
+      </form>
+      <div
+        class="back-container"
+        data-testid="backArrow"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="backArrowButton"
+          focusable="false"
+          id="back-arrow"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

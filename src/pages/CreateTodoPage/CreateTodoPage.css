@@ -1,0 +1,9 @@
+.create-todo-page-container{
+    display: flex;
+}
+@media only screen and (max-width: 770px) {
+    .create-todo-page-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
