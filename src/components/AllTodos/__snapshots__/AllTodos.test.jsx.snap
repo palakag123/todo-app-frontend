@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllTodos should take a snapshot for AllTodos 1`] = `
+<DocumentFragment>
+  <div
+    class="allTodos-container"
+  >
+    <h1
+      data-testid="allTodoHeading"
+      id="todos-heading"
+    >
+      ALL TO-DOS
+    </h1>
+    <div
+      class="all-cards-outer-container"
+      data-testid="allCards"
+    >
+      <div
+        class="all-cards-container"
+        data-testid="allCardsInner"
+      >
+        <div
+          class="todo-card"
+          data-testid="todoCard"
+        >
+          <p
+            id="todo-title"
+          >
+            first todo list item
+          </p>
+        </div>
+      </div>
+    </div>
+    <button
+      class="new-todo-button"
+      data-testid="newTodoButton"
+      type="button"
+    >
+      CREATE NEW
+    </button>
+  </div>
+</DocumentFragment>
+`;
