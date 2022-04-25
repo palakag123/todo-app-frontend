@@ -17,12 +17,15 @@ function CreateTodo({ todos, setTodos }) {
 
   const onNewTodoSubmit = (event) => {
     event.preventDefault();
+    // only submits if there is content in the textarea
     if (newTodo.length > 0) {
+      // adding latest todos on top
       setTodos([{ id: todos.length + 1, todo: newTodo }, ...todos]);
       navigate(HOME_ROUTE);
     }
   };
 
+  // to return to home page without submitting
   const onHomeClick = (event) => {
     event.preventDefault();
     navigate(HOME_ROUTE);
@@ -42,16 +45,8 @@ function CreateTodo({ todos, setTodos }) {
           cols={5}
           onChange={onAddNewTodo}
           value={newTodo}
-          // style={newTodo.length > 100 ? { color: "red" } : {}}
           maxLength="100"
         />
-        {/* <div
-          contentEditable
-          id="new-todo-input"
-          rows={5}
-          cols={5}
-          onChange={onAddNewTodo}
-        /> */}
         <div className="count-char-container">
           <p id="character-count" data-testid="charCount">
             {`${100 - newTodo.length} characters left`}
