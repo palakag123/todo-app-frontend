@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails should take a snapshot for UserDetails component 1`] = `
+<DocumentFragment>
+  <div
+    class="details-container"
+  >
+    <div
+      class="details-inner-container"
+    >
+      <img
+        alt="user"
+        data-testid="userImg"
+        id="user-img"
+        src="userImage.jpeg"
+      />
+      <h2
+        data-testid="greeting"
+        id="greeting"
+      >
+        HI, USER
+      </h2>
+      <br />
+      <h1
+        data-testid="time"
+        id="date-time"
+      >
+        <time
+          datetime="1650831384718"
+        >
+          1:46 am
+        </time>
+      </h1>
+      <h1
+        data-testid="date"
+        id="date-time"
+      >
+        <time
+          datetime="1650831384718"
+        >
+          25 April, 2022
+        </time>
+      </h1>
+    </div>
+  </div>
+</DocumentFragment>
+`;
